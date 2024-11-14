@@ -21,4 +21,6 @@ git reflog # 查看所有操作记录
 git diff # 比较工作区和暂存区
 git diff HEAD # 比较工作区和版本库
 git diff --cached # 比较暂存区和版本库
+git diff $ID1/HEAD~i $ID2/HEAD [$FILE]# 比较两次版本提交（可只比较具体文件）
+git diff $BRANCH1 $BRANCH2 # 比较两个分支
 ```
