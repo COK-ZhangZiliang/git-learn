@@ -15,3 +15,10 @@ git reflog # 查看所有操作记录
 
 ## git reset
 ![](images/2.png)
+
+# git diff
+```bash
+git diff # 比较工作区和暂存区
+git diff HEAD # 比较工作区和版本库
+git diff --cached # 比较暂存区和版本库
+```
