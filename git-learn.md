@@ -28,7 +28,7 @@ git diff $BRANCH1 $BRANCH2 # 比较两个分支
 ## git rm
 ```bash
 git rm $FILE # 从工作区和暂存区删除
- git rm --cached $FILE # 从暂存区中删除，但保留在工作区
+git rm --cached $FILE # 从暂存区中删除，但保留在工作区
 ```
 
 ## .gitignore
@@ -46,13 +46,10 @@ doc/**/*.txt # 忽略doc/notes.txt和doc/server/arch.txt
 ```bash
 # 添加远程仓库
 git remote add <远程仓库别名> <远程仓库地址>
-
 # 向远程仓库推送
 git push -u <远程仓库别名> <远程分支名:本地分支名> # 如果两者相同可以只写一个
-
 # 查看远程仓库
 git remote -v
-
 # 拉取远程仓库内容
 git pull <远程仓库别名> <远程分支名:本地分支名>
 ```
