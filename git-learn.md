@@ -65,4 +65,5 @@ git switch/checkout $BRANCH_NAME # 切换分支
 git merge $BRANCH_NAME # 合并BRANCH_NAME分支到当前分支
 git branch -d $BRANCH_NAME # (分支已被合并)删除分支
 git branch -D $BRANCH_NAME # (分支还未被合并)强制删除分支
+git merge --abort # 取消合并
 ```
