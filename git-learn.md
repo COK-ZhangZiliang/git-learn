@@ -41,3 +41,16 @@ build/ # 忽略任何目录下的build文件夹
 doc/*.txt # 忽略doc/notes.txt，但不忽略doc/server/arch.txt
 doc/**/*.txt # 忽略doc/notes.txt和doc/server/arch.txt 
 ```
+
+## 关联 GitHub
+```bash
+# 添加远程仓库
+git remote add <远程仓库别名> <远程仓库地址>
+git push -u <远程仓库别名> <远程分支名:本地分支名> # 如果两者相同可以只写一个
+
+# 查看远程仓库
+git remote -v
+
+# 拉取远程仓库内容
+git pull <远程仓库别名> <远程分支名:本地分支名>
+```
