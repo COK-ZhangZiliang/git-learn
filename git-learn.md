@@ -46,6 +46,8 @@ doc/**/*.txt # 忽略doc/notes.txt和doc/server/arch.txt
 ```bash
 # 添加远程仓库
 git remote add <远程仓库别名> <远程仓库地址>
+
+# 向远程仓库推送
 git push -u <远程仓库别名> <远程分支名:本地分支名> # 如果两者相同可以只写一个
 
 # 查看远程仓库
@@ -53,4 +55,15 @@ git remote -v
 
 # 拉取远程仓库内容
 git pull <远程仓库别名> <远程分支名:本地分支名>
+```
+
+## 分支管理
+```bash
+git branch # 查看分支
+git branch $BRANCH_NAME # 创建分支
+git switch/checkout $BRANCH_NAME # 切换分支
+git merge $BRANCH_NAME # 合并BRANCH_NAME分支到当前分支
+git branch -d $BRANCH_NAME # (分支已被合并)删除分支
+git branch -D $BRANCH_NAME # (分支还未被合并)强制删除分支
+git merge --abort # 取消合并
 ```
