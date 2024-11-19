@@ -64,3 +64,11 @@ git branch -d $BRANCH_NAME # (分支已被合并)删除分支
 git branch -D $BRANCH_NAME # (分支还未被合并)强制删除分支
 git merge --abort # 取消合并
 ```
+
+## git rebase
+```bash
+git rebase $BRANCH_NAME # 将当前分支的提交移动到BRANCH_NAME分支上
+```
+
+## github flow
+![](images/4.png)
